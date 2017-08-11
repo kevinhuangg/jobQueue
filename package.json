@@ -1,0 +1,22 @@
+{
+  "name": "jobqueue",
+  "version": "1.0.0",
+  "description": "Create a job queue whose workers fetch data from a URL and store the results in a database.  The job queue should expose a REST API for adding jobs and checking their status / results.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinhuangg/jobQueue.git"
+  },
+  "author": "Kevin Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinhuangg/jobQueue/issues"
+  },
+  "homepage": "https://github.com/kevinhuangg/jobQueue#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
